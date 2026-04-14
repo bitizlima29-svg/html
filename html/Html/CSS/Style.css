@@ -1,14 +1,37 @@
-table{
-    width: 100%;
-    border-collapse: collapse;
-
-}
-h1{
+body {
+    font-family: Arial, sans-serif;
+    background-color: #cce7ff; /* azul claro */
     text-align: center;
-
 }
-th,td{
-    border: 2px solid blueviolet;
-    padding: 8px;
+
+/* Centralizar todos os títulos */
+h1, h2, h3, h4, h5, h6 {
+    color: #333;
+}
+
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 50%;
+    background-color: white;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+th {
+    background-color: #333;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+img{
+    width: 300px;
+
+
 
 }
