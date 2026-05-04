@@ -1,10 +1,10 @@
 function Confirmar(){
- return window.confirm('Você tem certeza que deseja confirmar?')
+ return window.confirm('Compra realizada com sucesso!')
 
 }
 
 function navConfirm(){ 
-    return window.confirm('Você tem certeza que deseja confirmar?')
+    return window.confirm('Compra confirmada com sucesso!')
 
 }
 fuc
