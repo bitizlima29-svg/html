@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo Let Document</title>
+</head>
+<body>
+    <h1>Exemplo Let no document usando a multiplicação</h1>
+    <label for="">Digite un número para multiplicar por 2: </label>
+    <input type="text" name="" id="numero">
+    <button onclick="mult()">multiplicar</button>
+
+    <p id="resultado"></p>
+
+    <script>
+        function mult(){
+            let numero = document.getElementById ("numero").value;
+            numero = numero * 2;
+            console.log ( "O resultado é: " + numero);
+            document.getElementById("resultado").innerHTML = "O resultado é:"= numero;
+            window.alert("O resultado é:"+ numeto);
+        }
+    </script>
+</body>
+</html>
